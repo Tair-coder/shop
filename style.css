@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+  box-sizing: border-box;
+  
+  
+}
+body {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+}
+
+.container-head{
+  height: 800px;
+  background: #F9F6F1;
+}
+.container{
+ width: 1920px;
+
+border: 6 solid #0015FF;
+margin:0;
+  
+}
+.background{
+ 
+ background: #F9F6F1;
+}
+
+.head-ul{
+  display:flex;
+ justify-content: center;
+  text-align: center;
+  
+}
+ul li {
+  list-style: none;
+  font-style: normal;
+
+
+  
+
+
+}
+.head-a{
+  padding-top: 61px;
+  padding-right:50px;
+  text-decoration: none;
+ margin-left: 50px;
+  display: flex;
+ color: black;
+ font-size: 14px;
+text-align: center;
+  justify-content: center;
+}
+
+
+.head{
+ display: flex;
+
+
+
+background: #F9F6F1;
+}
+.main-menu{
+  display:flex;
+justify-content: center;
+height: 17px;
+align-items: center;
+padding-top: 40px;
+}
+.logo{
+  
+  padding-top: 50px;
+  padding-left:15px;
+  padding-right: 40px;
+}
+.shop{
+  padding-left: 30px;
+padding-top: 30px;
+}
+/*Здесь кончается меню */
+.hero-content{
+ margin: 200px 450px ;
+  
+  display:flex;
+  justify-content: center;
+ 
+  text-align: center;
+  
+max-width: 1126px;
+height: 377px;
+  width: 100%;
+}
+.hero-text{
+  display: inline-block;
+ text-align: center;
+ justify-content: center;
+ width: 570px;
+ height:224px;
+ padding-right:60px;
+}
+.hero-subtitle{
+  width: 335px;
+height: 28px;
+display: flex;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+padding-right:60px;
+
+
+}
+.hero-title{
+  width: 570px;
+height: 51px;
+display: flex;
+justify-content: space-between;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 67px;
+
+
+color: #000000;
+
+}
+.hero-button{
+
+
+border: none;
+outline: none;
+cursor: pointer;
+color: white;
+background: #D7B399;
+padding: 18px;
+margin-right:290px;
+font-family: Montserrat;
+text-align: center;
+}
+.hero-avatar{
+
+
+ 
+width: 556px;
+height: 377px;
+background: url(img/running_shoes_PNG5823.svg);
+
+ 
+}
+.photo-h3, .photo-h1{
+ margin-left:350px;
+
+}
+.photo-h1{
+  margin-left:300px;
+  color:red;
+}
+/*здесь закончевается блок первый*/
+
+.header{
+ display: flex;
+  background: #212121;
+  height: 235px;
+ text-align: center;
+  width: 1920px;
+  justify-content: center;
+  
+}
+.ul{
+  color: white;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom:69px;
+}
+.ul li{
+  display: flex;
+  justify-content: center;
+ width: 588px;
+
+}
+.h1{
+  text-transform: uppercase;
+  font-weight: bold; 
+  margin-right:5px;
+}
+.para{
+  font-family: Montserrat;
+ text-transform: uppercase;
+}
+.ul li:nth-child(1){
+padding-bottom: 10px;
+}
+.litwo{
+  margin-bottom: 70px;
+   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+}
+/* new  блок ниже*/
+.main{
+  width: 1100px;
+}
+.col
+{
+  width:1920px;
+  height: 250px;
+  display: flex;
+  margin-bottom:0;
+}
+.man-col{
+    background:#F9F6F1;
+    height: 250px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+     width: 960px;
+}
+
+.man{
+  color: black;
+display:flex;
+  
+}
+.man li{
+  display: flex;
+ align-items:end;
+  justify-content: center;
+width: 268px;
+line-height:15px;
+}
+
+
+.mantwo{
+  margin-bottom:100px;
+  margin-top:107px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 21px;
+    line-height: 26px;
+   display: block;
+   margin-left:100px;
+}
+.man-button{
+  border: none;
+outline: none;
+width:80px;
+color: white;
+background: #D7B399;
+padding:5px 30px 35px 30px;
+height: 30px;
+font-family: Montserrat;
+display:inline-block;
+margin-top: 133px;
+margin-left: 10px;
+}
+.man-photo{
+  margin-top: 60px;
+ margin-bottom:0;
+ display:flex;
+width: 191px;
+height:171px; 
+
+}
+.bigman{
+font-size:24px;
+position: absolute;
+ left:150px;
+  
+  display: inline-block;
+}
+.woman-col{
+  background:#F4F4F4;  
+  height: 250px;
+width: 960px;
+}
+.bigwoman{
+  position: absolute;
+  left:1100px;
+  font-size:24px;
+
+ 
+  
+}
+/*закончивается 2 блок*/
+.catalog {
+width: 1100px;
+  height: 472px;
+background-color: #F9F6F1;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.catalog-t{
+  display:flex;
+position: absolute;
+ justify-content: center;
+ 
+  
+}
+.catalog-t li{
+  display: flex; 
+  justify-content: center;
+  
+  
+}
+.end{
+  margin-right: 42px;
+}
+.catalog-avatar{
+ width: 278px;
+ height: 236px; 
+ display: flex;
+ justify-content: center;
+ margin-top: 0;
+ 
+  background-image:url(img/Rectangle.svg);
+}
+.catalog-avatar p {
+margin-top:190px;
+  margin-right:60px; 
+}
+/*second*/
+.catalog-two{
+  display:flex ;
+margin-top: 250px;
+ justify-content: center;
+ margin-right: 43px;
+  
+}
+.catalog-two li{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+.end{
+  margin-right: 42px;
+}
+.catalog-avatar{
+ width: 278px;
+ height: 236px; 
+ display: flex;
+ justify-content: center;
+ margin-top: 0;
+ 
+  background-image:url(img/Rectangle.svg); 
+}
+.catalog-avatar p {
+margin-top:190px;
+  margin-right:60px; 
+}
+/*new item*/
+.new-item{
+
+margin: 200px auto 0;
+
+  width: 1100px;
+  height:649px;
+}
+.new-h1{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+}
+/*.wrap {
+      
+    }
+    .wrap div {
+        width: 300px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        background-image: linear-gradient(to right,   20px, transparent 20px, transparent 280px,  #F9F6F1 280px),
+        linear-gradient(to right,  #F9F6F1 20px, transparent 20px, transparent 280px,  #F9F6F1 280px),
+        linear-gradient(to bottom,  #F9F6F1 20px, transparent 20px, transparent 80px,  #F9F6F1 80px),
+        linear-gradient(to bottom,  #F9F6F1 20px, transparent 20px, transparent 80px,  #F9F6F1 80px);
+        background-size: 100% 5px, 100% 5px, 5px 100%, 5px 100%;
+        background-position: 0 0, 0 100%, 0 0, 100% 0;
+        background-repeat: no-repeat;
+    }*/
+    .wrap{
+     display: flex;
+      width: 255px;
+      height: 350px;
+      
+    }
+    .wrap ul{
+     display: block;
+    justify-content: center;
+      text-align: center;
+   padding: 25px;
+      border:3px solid #D7B399;
+      width: 255px;
+      height: 350px;
+      margin-left: 15px;
+    }
+    .girl{
+      margin-bottom:20px;
+    }
+    .kok{
+      margin-bottom: 10px;
+    }
+    .prace{
+      margin-bottom:10px;
+    }
+    .new-button{
+  position: absolute;
+    top:2450px;
+    left:900px;
+     background: none;
+     border: none;
+     cursor: pointer;
+     
+      font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+color: white;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+background: #D7B399;
+padding: 5px 18px;
+    }
+    /*подписка↓*/
+    .sub{
+    width: 1920px;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    background: #212121;
+    }
+    .sub-inside{
+      display: flex;
+      align-items: center;
+      
+      margin: 50px 405px 50px 405px;;
+    }
+    .sub-inside h1{
+      font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+    }
+    .sub-input{
+    border: none;
+    background: none;
+    outline: none;
+      background: #F9F6F1;
+      width: 255px;
+height: 40px;
+margin-left: 65px;
+margin-right: 35px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+padding: 12px 164px 13px 20px;
+letter-spacing: 0.02em;
+
+color: #8D8D8D
+    }
+    .sub-button{
+      background: #D7B399;
+width: 185px;
+height: 40px;
+
+border:none;
+outline: none;
+cursor: pointer;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+    }
+    .end{
+      
+      text-align: center;
+      
+      margin:auto;
+    }
+    .end-button{
+      margin-top: 70px;
+            border:none;
+      background:none;
+      outline: none;
+      cursor: pointer;
+      background: #D7B399;
+      font-family: Montserrat;
+font-style: normal;
+padding:15px 35px;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+    }
+    .wrap-log{
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+
+    }
+    /*footer*/
+.footer {
+ margin-top: 200px;
+  width: 1920px;
+  background: #212121;
+  height:311px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.footer-content{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  text-decoration:none;
+  padding: 33px;
+}
+.footer-left img{
+  color: white;
+  
+}
+.footer-left li p {
+ width: 200px;
+height: 88px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+text-align: left;
+ 
+color: #FFFFFF;
+}
+.footer-main , .footer-right , .footer-four , .footer-end{
+  text-align: left;
+}
+.footer-main a, .footer-right a, .footer-four a, .footer-end a{
+  text-decoration: none;
+  color:white;
+  text-align: left;
+ 
+}
+.footer-main li, .footer-right li, .footer-four li, .footer-end li{
+  margin-top: 33px;
+  display: block;
+  
+}
+.gg-facebook,.gg-instagram{
+ margin-right:20px;
+ color: #D7B399;
+}
+.Instagram,.Facebook{
+  display: flex;
+}
+.pol{
+display: flex;
+ text-align: center;
+ justify-content: space-between;
+
+}
+.pol p{
+  text-align: center; 
+}
